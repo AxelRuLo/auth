@@ -14,8 +14,8 @@ async function bootstrap() {
     }),
   );
   const config = new DocumentBuilder()
-    .setTitle('Template_10_4_8')
-    .setDescription('Template_10_4_8 documentation')
+    .setTitle('Auth')
+    .setDescription('Auth documentation')
     .setVersion('1.0')
     .build();
   const documentFactory = () => SwaggerModule.createDocument(app, config);
