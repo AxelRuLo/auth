@@ -1,4 +1,4 @@
-import { Address } from 'address/entities/address.entity';
+import { Address } from '@auth/address/entities/address.entity';
 import {
   BeforeInsert,
   BeforeUpdate,

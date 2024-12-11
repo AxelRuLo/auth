@@ -29,7 +29,6 @@ import { CommonModule } from '@auth/common/common.module';
     CommonModule,
     UserModule,
     MailModule,
-
   ],
 })
-export class AppModule { }
+export class GeneralAuthModule {}

@@ -13,7 +13,7 @@ export class MailService {
   constructor(
     private readonly mailerService: MailerService,
     private readonly configService: ConfigService,
-  ) { }
+  ) {}
 
   async sendUserConfirmation(user: User, token: string) {
     try {
