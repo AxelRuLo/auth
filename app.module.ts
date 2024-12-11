@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
-import { UserModule } from './user/user.module';
-import { AddressModule } from './address/address.module';
+import { UserModule } from '@auth/user/user.module';
+import { AddressModule } from '@auth/address/address.module';
 import { MailModule } from '@auth/mail/mail.module';
-import { AuthModule } from './auth/auth.module';
-import { CommonModule } from './common/common.module';
+import { AuthModule } from '@auth/auth/auth.module';
+import { CommonModule } from '@auth/common/common.module';
 
 @Module({
   imports: [
