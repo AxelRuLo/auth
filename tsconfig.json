@@ -11,11 +11,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
-      "@src/*": ["src/*"],
-      "@common/*": ["src/common/*"],
-      "@auth/*": ["src/auth/*"],
-      "@address/*": ["src/address/*"],
-      "@mail/*": ["src/mail/*"],
+      "@auth/*": ["src/*"],
     },
     "incremental": true,
     "skipLibCheck": true,

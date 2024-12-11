@@ -5,8 +5,8 @@ import {
   InternalServerErrorException,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { User } from '@src/user/entities/user.entity';
-import { EMAIL_AUTHENTICATION_ERROR } from '@common/constants/constants';
+import { User } from '@auth/user/entities/user.entity';
+import { EMAIL_AUTHENTICATION_ERROR } from '@auth/common/constants/constants';
 
 @Injectable()
 export class MailService {

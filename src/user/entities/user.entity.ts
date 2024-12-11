@@ -1,4 +1,4 @@
-import { Address } from '@src/address/entities/address.entity';
+import { Address } from '@auth/address/entities/address.entity';
 import {
   BeforeInsert,
   BeforeUpdate,
@@ -9,7 +9,7 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { UserRoles } from '@auth/types';
+import { UserRoles } from '@auth/auth/types';
 // import { Product } from '@src/product/entities/product.entity';
 
 @Entity('users')

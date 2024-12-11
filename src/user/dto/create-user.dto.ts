@@ -6,7 +6,7 @@ import {
   MaxLength,
   MinLength,
 } from 'class-validator';
-import { EMAIL_REGEX } from '@common/constants/constants';
+import { EMAIL_REGEX } from '@auth/common/constants/constants';
 import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateUserDto {

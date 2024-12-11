@@ -8,10 +8,10 @@ import {
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { Repository } from 'typeorm';
-import { User } from '@src/user/entities/user.entity';
+import { User } from '@auth/user/entities/user.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as bcrypt from 'bcrypt';
-import { DUPLICATED_KEY_ERROR_CODE } from '@common/constants/constants';
+import { DUPLICATED_KEY_ERROR_CODE } from '@auth/common/constants/constants';
 import { AuthService } from '../auth/auth.service';
 
 @Injectable()

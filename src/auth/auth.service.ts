@@ -5,13 +5,13 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { User } from '@src/user/entities/user.entity';
+import { User } from '@auth/user/entities/user.entity';
 import { Repository } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { LoginUserDto } from '@src/user/dto/login-user.dto';
-import { JwtPayload } from '@src/auth/types';
+import { LoginUserDto } from '@auth/user/dto/login-user.dto';
+import { JwtPayload } from '@auth/auth/types';
 import { JwtService } from '@nestjs/jwt';
-import { MailService } from '@mail/mail.service';
+import { MailService } from '@auth/mail/mail.service';
 import { ConfigService } from '@nestjs/config';
 
 @Injectable()
